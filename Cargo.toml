@@ -13,6 +13,6 @@ keywords = ["pest", "ascii", "tree"]
 
 [dependencies]
 ascii_tree = "0.1.1"
-pest = "2.1.2"
+pest = { git = "https://github.com/pest-parser/pest.git", branch = "master" }
 pest_derive = "2.1.0"
 escape_string = "0.1.1"
